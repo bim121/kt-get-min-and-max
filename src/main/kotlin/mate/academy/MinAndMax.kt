@@ -1,12 +1,12 @@
 package mate.academy
 
 fun getMinAndMax(inputArray: IntArray): IntArray {
-    if (arr.isEmpty()) return intArrayOf()
+    if (inputArray.isEmpty()) return intArrayOf()
 
-    var min = arr[0]
-    var max = arr[0]
+    var min = inputArray[0]
+    var max = inputArray[0]
 
-    for (num in arr) {
+    for (num in inputArray) {
         if (num < min) min = num
         if (num > max) max = num
     }
